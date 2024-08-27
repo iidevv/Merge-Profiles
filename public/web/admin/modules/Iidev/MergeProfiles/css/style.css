@@ -1,6 +1,41 @@
+.merge-form {
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr;
+  align-items: start;
+  grid-gap: 1.5rem;
+}
+
+.merge-form-btn {
+  margin-top: 30px;
+}
+
 .merge-wrapper {
-    max-width: 450px;
+  max-width: 850px;
 }
 .merge-input {
-    margin-bottom: 15px;
+  margin-bottom: 1rem;
+}
+
+.list-btn {
+  border: none;
+  background: transparent;
+  text-decoration: underline;
+}
+
+.list-btn:hover {
+  text-decoration: none;
+}
+
+.search-results {
+    margin-top: 1.5rem;
+}
+
+.search-results > li:not(:last-child) {
+  border-bottom: 1px solid #8d8d8d;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+}
+
+.search-results li ul {
+  margin-left: 2rem;
 }
